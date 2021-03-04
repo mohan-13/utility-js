@@ -5,8 +5,7 @@ describe("Tail",()=>{
     });
 
     test("tail([]) should return []",()=>{
-        console.log(tail(123456));
-        expect(tail(123456)).toEqual([]);
+        expect(tail([])).toEqual([]);
     });
 
 });
