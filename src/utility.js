@@ -1,3 +1,5 @@
+const filter = require("./filter");
+
 const utility={
     cube:function cube(value){
         return value*value*value;
@@ -5,6 +7,11 @@ const utility={
 
     identity:function identity(value){
         return value;
+    },
+
+    filterUpperCase:function filterUpperCase(value)
+    {
+        return value==value.toUpperCase();
     }
 
 
